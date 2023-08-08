@@ -1,0 +1,12 @@
+.navegacao {
+  background-color: rgba(0,0,0,0.3);
+  /* box-shadow: 5px 5px 3px #0CA88E; */
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+}
+
+.navegacao__links, .navegacao__logo{
+  display: block;
+}
