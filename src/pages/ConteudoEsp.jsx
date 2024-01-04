@@ -31,12 +31,6 @@ function ConteudoEsp(categoria) {
               <div className="fs-5 mb-5">
                 <p className="text-white">{descricao}</p>
               </div>
-              {/* <p className="lead text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium at dolorem quidem modi. Nam sequi consequatur
-                obcaecati excepturi alias magni, accusamus eius blanditiis
-                delectus ipsam minima ea iste laborum vero?
-              </p> */}
               <div className="d-flex">
                 <button
                   className="btn btn-outline-info flex-shrink-0"
