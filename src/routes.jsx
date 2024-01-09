@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import PageContent from "./pages/PageContent";
-import Cards from "./components/Card";
+import Cards from "./components/Cards";
 import Conteudo from "./pages/Conteudo";
 import ConteudoEsp from "./pages/ConteudoEsp";
 import SchemaHTML from "./db/SchemaHTML";

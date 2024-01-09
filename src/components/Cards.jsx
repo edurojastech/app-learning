@@ -1,10 +1,8 @@
 import Yoda from "../assets/yoda.png";
-import { Link } from "react-router-dom"
 import img02 from "../assets/2.webp"
 import img03 from "../assets/3.webp"
 import img04 from "../assets/4.webp"
 import CardCustom from "./CardCustom";
-
 
 function Cards() {
   return (
