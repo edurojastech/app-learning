@@ -1,9 +1,11 @@
+/* eslint-disable react/prop-types */
 import { useParams } from "react-router-dom";
 import NavBar from "../components/NavBar";
 
-function ConteudoEsp(categoria) {
+export default function ConteudoEsp(props) {
+  console.log(props)
   const { assunto } = useParams();
-  const item = categoria.categoria.assuntos.find((i) => i.topico == assunto);
+  const item = props.categoria.assuntos.find((i) => i.topico == assunto);
   const titulo = item.conteudo.title;
   const descricao = item.conteudo.description;
   const imagem = item.conteudo.imagem;
@@ -47,5 +49,3 @@ function ConteudoEsp(categoria) {
     </div>
   );
 }
-
-export default ConteudoEsp;
