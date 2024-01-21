@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 // import { Link } from "react-router-dom";
 import "../css/PageContent.css";
+import "../css/scrollBarCustom.css"
 import NavBar from "../components/NavBar";
 import { Link } from "react-router-dom";
 
