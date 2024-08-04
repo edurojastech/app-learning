@@ -39,7 +39,7 @@ export default function LoginPage() {
                     <div className="form-check mb-3">
                         <input className="form-check-input" type="checkbox" value="" id="rememberPasswordCheck" />
                             <label className="form-check-label text-white" for="rememberPasswordCheck"     >
-                                Remember password
+                                Lembrar senha
                             </label>
                     </div>
 
