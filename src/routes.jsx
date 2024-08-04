@@ -1,4 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
+import LoginPage from "./pages/login";
 import Home from "./pages/Home";
 import PageContent from "./pages/PageContent";
 import Cards from "./components/Cards";
@@ -10,6 +11,13 @@ import SchemaJS from "./db/SchemaJS";
 import SchemaALG from "./db/SchemaALG";
 
 const router = createBrowserRouter([
+  {
+    path: "/login",
+    element: (
+      <LoginPage />
+    ),
+  },
+
   {
     path: "/",
     element: (
