@@ -9,6 +9,7 @@ import SchemaHTML from "./db/SchemaHTML";
 import SchemaCSS from "./db/SchemaCSS";
 import SchemaJS from "./db/SchemaJS";
 import SchemaALG from "./db/SchemaALG";
+import HomePage from "./pages/home";
 
 const router = createBrowserRouter([
   {
@@ -21,11 +22,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: (
-      <Home>
-        <Cards />
-      </Home>
+      <HomePage />
     ),
   },
+
+  // {
+  //   path: "/",
+  //   element: (
+  //     <Home>
+  //       <Cards />
+  //     </Home>
+  //   ),
+  // },
 
   {
     path: "/html",
