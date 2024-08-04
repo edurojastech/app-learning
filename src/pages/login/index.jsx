@@ -33,7 +33,7 @@ export default function LoginPage() {
                     </div>
                     <div className="form-floating mb-3">
                         <input type="password" className="form-control" id="floatingPassword" placeholder="Password" />
-                            <label for="floatingPassword">Password</label>
+                            <label for="floatingPassword">Senha</label>
                     </div>
 
                     <div className="form-check mb-3">
