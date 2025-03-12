@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import { createBrowserRouter } from "react-router-dom";
 import LoginPage from "./pages/login";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import PageContent from "./pages/PageContent";
 import Cards from "./components/Cards";
 import Conteudo from "./pages/Conteudo";
@@ -13,7 +14,7 @@ import HomePage from "./pages/home";
 
 const router = createBrowserRouter([
   {
-    path: "/login",
+    path: "/welcome",
     element: (
       <LoginPage />
     ),
@@ -25,15 +26,6 @@ const router = createBrowserRouter([
       <HomePage />
     ),
   },
-
-  // {
-  //   path: "/",
-  //   element: (
-  //     <Home>
-  //       <Cards />
-  //     </Home>
-  //   ),
-  // },
 
   {
     path: "/html",
